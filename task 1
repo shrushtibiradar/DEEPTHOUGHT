@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Applicant Storyboard</title>
+  <link rel="stylesheet" href="storyboard.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="page-title">Applicant Storyboard</h1>
+
+    <div class="storyboard">
+
+      <!-- Card 1 -->
+      <div class="card active">
+        <div class="card-header">
+          <img src="https://via.placeholder.com/48" alt="Applicant">
+          <div>
+            <h3>Rahul Sharma</h3>
+            <p>Frontend Developer</p>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <p><strong>Experience:</strong> 2.5 Years</p>
+          <p><strong>Status:</strong> Interview Scheduled</p>
+
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="https://via.placeholder.com/48" alt="Applicant">
+          <div>
+            <h3>Sneha Patil</h3>
+            <p>UI/UX Designer</p>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <p><strong>Experience:</strong> 1.8 Years</p>
+          <p><strong>Status:</strong> Application Reviewed</p>
+
+          <div class="progress">
+            <div class="progress-bar half"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
